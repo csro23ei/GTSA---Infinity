@@ -1,0 +1,585 @@
+[2023-09-28 15:40:12] Welcome to the Daemon Booter
+[2023-09-28 15:40:12] ----------------------------
+[2023-09-28 15:40:12] SuperCollider inputs disabled by GUI
+[2023-09-28 15:40:12] checked port 33772, #<UDPSocket:0x0000024ac9536630>
+[2023-09-28 15:40:12] checked port 33773, #<UDPSocket:0x0000024ac9536220>
+[2023-09-28 15:40:12] checked port 33774, #<UDPSocket:0x0000024ac9535ed8>
+[2023-09-28 15:40:12] checked port 4560, #<UDPSocket:0x0000024ac9535a50>
+[2023-09-28 15:40:12] checked port 33775, #<UDPSocket:0x0000024ac95357d0>
+[2023-09-28 15:40:12] checked port 33776, #<UDPSocket:0x0000024ac9535578>
+[2023-09-28 15:40:12] checked port 33777, #<UDPSocket:0x0000024ac9535398>
+[2023-09-28 15:40:12] checked port 33778, #<UDPSocket:0x0000024ac95350f0>
+[2023-09-28 15:40:12] checked port 33779, #<UDPSocket:0x0000024ac9534ee8>
+[2023-09-28 15:40:12] Selected ports: 
+[2023-09-28 15:40:12] {"spider-listen-to-gui"=>33772, "gui-send-to-spider"=>33772, "gui-listen-to-spider"=>33773, "spider-send-to-gui"=>33773, "scsynth"=>33774, "scsynth-send"=>33774, "osc-cues"=>4560, "tau"=>33775, "spider"=>33776, "phx"=>33777, "daemon"=>33778, "spider-listen-to-tau"=>33779}
+[2023-09-28 15:40:12] Booting Scsynth
+[2023-09-28 15:40:12] Got Audio Settings toml hash: {}
+[2023-09-28 15:40:12] Unified Audio Settings toml hash: {}
+[2023-09-28 15:40:12] Combined Audio Settings toml hash with GUI scsynth inputs hash: {"-i"=>"0"}
+[2023-09-28 15:40:12] Merged Audio Settings toml hash: {"-u"=>33774, "-a"=>"1024", "-m"=>"131072", "-D"=>"0", "-R"=>"0", "-l"=>"1", "-i"=>"0", "-o"=>"16", "-b"=>"4096", "-B"=>"127.0.0.1", "-U"=>"C:/Program Files/Sonic Pi/app/server/native/plugins"}
+[2023-09-28 15:40:12] Process Booter - booting C:/Program Files/Sonic Pi/app/server/native/scsynth.exe with args ["-u", "33774", "-a", "1024", "-m", "131072", "-D", "0", "-R", "0", "-l", "1", "-i", "0", "-o", "16", "-b", "4096", "-B", "127.0.0.1", "-U", "C:/Program Files/Sonic Pi/app/server/native/plugins"]
+[2023-09-28 15:40:12] C:/Program Files/Sonic Pi/app/server/native/scsynth.exe -u 33774 -a 1024 -m 131072 -D 0 -R 0 -l 1 -i 0 -o 16 -b 4096 -B 127.0.0.1 -U C:/Program Files/Sonic Pi/app/server/native/plugins
+[2023-09-28 15:40:12] Waiting for the SuperCollider Server to have booted...
+[2023-09-28 15:40:12] Sending /status to server: localhost:33774
+[2023-09-28 15:40:12] [scsynth] 
+[2023-09-28 15:40:12] [scsynth] Device options:
+[2023-09-28 15:40:12] [scsynth]   - MME : Microsoft Sound Mapper - Input   (device #0 with 2 ins 0 outs)
+[2023-09-28 15:40:12] [scsynth]   - MME : Headset (2- Jabra Elite 85h)   (device #1 with 1 ins 0 outs)
+[2023-09-28 15:40:12] [scsynth]   - MME : Microsoft Sound Mapper - Output   (device #2 with 0 ins 2 outs)
+[2023-09-28 15:40:12] [scsynth]   - MME : Hörlurar (2- Jabra Elite 85h)   (device #3 with 0 ins 2 outs)
+[2023-09-28 15:40:12] [scsynth]   - Windows DirectSound : Primär drivrutin för ljudinfångst   (device #4 with 2 ins 0 outs)
+[2023-09-28 15:40:12] [scsynth]   - Windows DirectSound : Headset (2- Jabra Elite 85h)   (device #5 with 1 ins 0 outs)
+[2023-09-28 15:40:12] [scsynth]   - Windows DirectSound : Primär ljuddrivrutin   (device #6 with 0 ins 2 outs)
+[2023-09-28 15:40:12] [scsynth]   - Windows DirectSound : Hörlurar (2- Jabra Elite 85h)   (device #7 with 0 ins 2 outs)
+[2023-09-28 15:40:12] [scsynth]   - Windows WASAPI : Hörlurar (2- Jabra Elite 85h)   (device #8 with 0 ins 2 outs)
+[2023-09-28 15:40:12] [scsynth]   - Windows WASAPI : Headset (2- Jabra Elite 85h)   (device #9 with 1 ins 0 outs)
+[2023-09-28 15:40:12] [scsynth]   - Windows WDM-KS : Hörlurar ()   (device #10 with 0 ins 2 outs)
+[2023-09-28 15:40:12] [scsynth]   - Windows WDM-KS : Headset (@System32\drivers\bthhfenum.sys,#2;%1 Hands-Free%0
+[2023-09-28 15:40:12] [scsynth] 
+[2023-09-28 15:40:12] [scsynth] ;(Jabra Elite 85h))   (device #11 with 0 ins 1 outs)
+[2023-09-28 15:40:12] [scsynth]   - Windows WDM-KS : Headset (@System32\drivers\bthhfenum.sys,#2;%1 Hands-Free%0
+[2023-09-28 15:40:12] [scsynth] 
+[2023-09-28 15:40:12] [scsynth] ;(Jabra Elite 85h))   (device #12 with 1 ins 0 outs)
+[2023-09-28 15:40:12] [scsynth] 
+[2023-09-28 15:40:12] [scsynth] Requested devices:
+[2023-09-28 15:40:12] [scsynth]   Out:
+[2023-09-28 15:40:12] [scsynth]   - (default)
+[2023-09-28 15:40:12] [scsynth] 
+[2023-09-28 15:40:12] [scsynth] Selecting default system output device
+[2023-09-28 15:40:12] [scsynth] 
+[2023-09-28 15:40:12] [scsynth] Booting with:
+[2023-09-28 15:40:12] [scsynth]   Out: MME : Hörlurar (2- Jabra Elite 85h)
+[2023-09-28 15:40:12] [scsynth]   Sample rate: 44100.000
+[2023-09-28 15:40:12] [scsynth]   Latency (in/out): 0.000 / 0.091 sec
+[2023-09-28 15:40:12] [scsynth] SC_AudioDriver: sample rate = 44100.000000, driver's block size = 64
+[2023-09-28 15:40:12] [scsynth] SuperCollider 3 server ready.
+[2023-09-28 15:40:13] Sending /status to server: localhost:33774
+[2023-09-28 15:40:13] Receiving ack from scsynth
+[2023-09-28 15:40:13] SuperCollider Server connection established
+[2023-09-28 15:40:13] Extracting Scsynth info
+[2023-09-28 15:40:13] Booting Tau...
+[2023-09-28 15:40:13] Fetching Tau toml opts...
+[2023-09-28 15:40:13] Requesting tau send us its pid. Sending /send-pid-to-daemon, -1974943507 to localhost:33775
+[2023-09-28 15:40:13] Daemon listening to info from Tau on port 33778
+[2023-09-28 15:40:13] Process Booter - booting C:\Program Files\Sonic Pi\app\server\beam\tau\_build\prod\rel\tau\erts-14.0.2\bin\erl.exe with args ["-config", "C:\\Program Files\\Sonic Pi\\app\\server\\beam\\tau\\_build\\prod\\rel\\tau\\releases\\0.1.0\\sys", "-boot", "C:\\Program Files\\Sonic Pi\\app\\server\\beam\\tau\\_build\\prod\\rel\\tau\\releases\\0.1.0\\start", "-boot_var", "RELEASE_LIB", "C:\\Program Files\\Sonic Pi\\app\\server\\beam\\tau\\_build\\prod\\rel\\tau\\lib", "-args_file", "C:\\Program Files\\Sonic Pi\\app\\server\\beam\\tau\\_build\\prod\\rel\\tau\\releases\\0.1.0\\vm.args", "-noshell", "-s", "elixir", "start_cli", "-mode", "embedded", "-extra", "--no-halt"]
+[2023-09-28 15:40:13] C:\Program Files\Sonic Pi\app\server\beam\tau\_build\prod\rel\tau\erts-14.0.2\bin\erl.exe -config C:\Program Files\Sonic Pi\app\server\beam\tau\_build\prod\rel\tau\releases\0.1.0\sys -boot C:\Program Files\Sonic Pi\app\server\beam\tau\_build\prod\rel\tau\releases\0.1.0\start -boot_var RELEASE_LIB C:\Program Files\Sonic Pi\app\server\beam\tau\_build\prod\rel\tau\lib -args_file C:\Program Files\Sonic Pi\app\server\beam\tau\_build\prod\rel\tau\releases\0.1.0\vm.args -noshell -s elixir start_cli -mode embedded -extra --no-halt
+[2023-09-28 15:40:13] Booting Spider Server
+[2023-09-28 15:40:13] Process Booter - booting C:/Program Files/Sonic Pi/app/server/native/ruby/bin/ruby.exe with args ["--enable-frozen-string-literal", "-E", "utf-8", "C:/Program Files/Sonic Pi/app/server/ruby/bin/spider-server.rb", "-u", "33772", "33773", "33774", "33774", "4560", "33775", "33779", "-1974943507"]
+[2023-09-28 15:40:13] C:/Program Files/Sonic Pi/app/server/native/ruby/bin/ruby.exe --enable-frozen-string-literal -E utf-8 C:/Program Files/Sonic Pi/app/server/ruby/bin/spider-server.rb -u 33772 33773 33774 33774 4560 33775 33779 -1974943507
+[2023-09-28 15:40:13] 33778 33773 33772 33774 4560 33775 33777 -1974943507
+[2023-09-28 15:40:13] Blocking main thread until exit signal received...
+[2023-09-28 15:40:14] [erl] prod
+[2023-09-28 15:40:14] [erl] 
+[2023-09-28 15:40:14] [erl] MidiInWinMM::initialize: no MIDI input devices currently available.
+[2023-09-28 15:40:14] [erl] 
+[2023-09-28 15:40:14] [erl] 
+[2023-09-28 15:40:14] [erl] MidiInWinMM::initialize: no MIDI input devices currently available.
+[2023-09-28 15:40:14] [erl] 
+[2023-09-28 15:40:14] [ruby] Sonic Pi Spider Server booting...
+[2023-09-28 15:40:14] [ruby] The time is 2023-09-28 15:40:14 +0200
+[2023-09-28 15:40:14] [ruby] Using primary protocol: udp
+[2023-09-28 15:40:14] [ruby] Detecting port numbers...
+[2023-09-28 15:40:14] [ruby] Ports: {:server_port=>33772, :gui_port=>33773, :scsynth_port=>33774, :scsynth_send_port=>33774, :osc_cues_port=>4560, :tau_port=>33775, :listen_to_tau_port=>33779}
+[2023-09-28 15:40:14] [ruby] Token: -1974943507
+[2023-09-28 15:40:14] [ruby] Opening UDP Server to listen to GUI on port: 33772
+[2023-09-28 15:40:14] [ruby] Spider - Pulling in modules...
+[2023-09-28 15:40:14] [ruby] Spider - Starting Runtime Server
+[2023-09-28 15:40:14] Requesting tau send us its pid. Sending /send-pid-to-daemon, -1974943507 to localhost:33775
+[2023-09-28 15:40:14] Daemon received Pid from Tau: [-1974943507, 3708]
+[2023-09-28 15:40:14] [ruby] TauComms - Sending /ping to tau: 127.0.0.1:33775
+[2023-09-28 15:40:14] [ruby] TauComms - Receiving ack from tau
+[2023-09-28 15:40:14] [ruby] TauComms - connection established
+[2023-09-28 15:40:14] [ruby] studio - init
+[2023-09-28 15:40:14] [ruby] scsynth boot - Waiting for the SuperCollider Server to have booted...
+[2023-09-28 15:40:14] [ruby] scsynth boot - Sending /status to server: 127.0.0.1:33774
+[2023-09-28 15:40:14] [ruby] scsynth boot - Receiving ack from scsynth
+[2023-09-28 15:40:14] [ruby] scsynth boot - Server connection established
+[2023-09-28 15:40:14] [ruby] scsynth - clear!
+[2023-09-28 15:40:14] [ruby] scsynth - clear schedule 
+[2023-09-28 15:40:14] [ruby] scsynth - schedule cleared!
+[2023-09-28 15:40:14] [ruby] scsynth - group clear 0
+[2023-09-28 15:40:14] [ruby] scsynth - group clear 0 completed
+[2023-09-28 15:40:14] [ruby] Studio - Initialised SuperCollider Audio Server v3.13.0
+[2023-09-28 15:40:14] [ruby] Studio - Resetting server
+[2023-09-28 15:40:14] [ruby] Studio - Reset and setup groups and busses
+[2023-09-28 15:40:14] [ruby] Studio - Clearing scsynth
+[2023-09-28 15:40:14] [ruby] scsynth - clear schedule
+[2023-09-28 15:40:14] [ruby] scsynth - clear scsynth
+[2023-09-28 15:40:14] [ruby] scsynth - clear!
+[2023-09-28 15:40:14] [ruby] scsynth - clear schedule 
+[2023-09-28 15:40:14] [ruby] scsynth - schedule cleared!
+[2023-09-28 15:40:15] [ruby] scsynth - group clear 0
+[2023-09-28 15:40:15] [ruby] scsynth - group clear 0 completed
+[2023-09-28 15:40:15] [ruby] scsynth - cleared scsynth
+[2023-09-28 15:40:15] [ruby] scsynth - bus allocators reset
+[2023-09-28 15:40:15] [ruby] Studio - Allocating audio bus
+[2023-09-28 15:40:15] [ruby] Studio - Create Base Synth Groups
+[2023-09-28 15:40:15] [ruby] Studio - Starting mixer
+[2023-09-28 15:40:15] [ruby] Studio - Starting scope
+[2023-09-28 15:40:15] [ruby] Spider - Runtime Server Initialised
+[2023-09-28 15:40:15] [ruby] Spider - Registering incoming Spider Server API endpoints
+[2023-09-28 15:40:15] [ruby] Spider - Booted Successfully.
+[2023-09-28 15:40:15] [ruby] Spider - v4.4, OS windows, on Ruby  3.2.2 | 3.2.0.
+[2023-09-28 15:40:15] [ruby] Spider - ------------------------------------------
+[2023-09-28 15:40:18] scsynth log match - res: nil, res_no_input: #<MatchData "  Out: MME : Hörlurar (2- Jabra Elite 85h)\n  Sample rate: 44100.000\n  Latency (in/out): 0.000 / 0.091 sec" 1:"MME : Hörlurar (2- Jabra Elite 85h)" 2:"44100.000" 3:"0.000" 4:"0.091">, res_no_output: nil
+[2023-09-28 15:40:18] Extracted Windows in audio hw only: {:hw_in=>"Not connected", :hw_out=>"MME : Hörlurar (2- Jabra Elite 85h)", :hw_sample_rate=>44100, :hw_latency_in=>0.0, :hw_latency_out=>0.091}
+[2023-09-28 15:40:18] Sending scsynth info to GUI...
+[2023-09-28 15:40:18] {:hw_in=>"Not connected", :hw_out=>"MME : Hörlurar (2- Jabra Elite 85h)", :hw_sample_rate=>44100, :hw_latency_in=>0.0, :hw_latency_out=>0.091, :sc_sample_rate=>44100, :sc_block_size=>64}
+[2023-09-28 15:40:18] Out: MME : Hörlurar (2- Jabra Elite 85h)
+In: Not connected
+Sample Rate: 44100
+Block Size: 64
+Latency Out: 0.091
+[2023-09-28 15:40:19] [erl] 
+[2023-09-28 15:40:19] [erl] MidiInWinMM::initialize: no MIDI input devices currently available.
+[2023-09-28 15:40:19] [erl] 
+[2023-09-28 15:40:19] [erl] 
+[2023-09-28 15:40:19] [erl] MidiInWinMM::initialize: no MIDI input devices currently available.
+[2023-09-28 15:40:19] [erl] 
+[2023-09-28 15:40:24] [erl] 
+[2023-09-28 15:40:24] [erl] MidiInWinMM::initialize: no MIDI input devices currently available.
+[2023-09-28 15:40:24] [erl] 
+[2023-09-28 15:40:29] [erl] 
+[2023-09-28 15:40:29] [erl] MidiInWinMM::initialize: no MIDI input devices currently available.
+[2023-09-28 15:40:29] [erl] 
+[2023-09-28 15:40:34] [erl] 
+[2023-09-28 15:40:34] [erl] MidiInWinMM::initialize: no MIDI input devices currently available.
+[2023-09-28 15:40:34] [erl] 
+[2023-09-28 15:40:39] [erl] 
+[2023-09-28 15:40:39] [erl] MidiInWinMM::initialize: no MIDI input devices currently available.
+[2023-09-28 15:40:39] [erl] 
+[2023-09-28 15:40:44] [erl] 
+[2023-09-28 15:40:44] [erl] MidiInWinMM::initialize: no MIDI input devices currently available.
+[2023-09-28 15:40:44] [erl] 
+[2023-09-28 15:40:49] [erl] 
+[2023-09-28 15:40:49] [erl] MidiInWinMM::initialize: no MIDI input devices currently available.
+[2023-09-28 15:40:49] [erl] 
+[2023-09-28 15:40:54] [erl] 
+[2023-09-28 15:40:54] [erl] MidiInWinMM::initialize: no MIDI input devices currently available.
+[2023-09-28 15:40:54] [erl] 
+[2023-09-28 15:40:59] [erl] 
+[2023-09-28 15:40:59] [erl] MidiInWinMM::initialize: no MIDI input devices currently available.
+[2023-09-28 15:40:59] [erl] 
+[2023-09-28 15:41:04] [erl] 
+[2023-09-28 15:41:04] [erl] MidiInWinMM::initialize: no MIDI input devices currently available.
+[2023-09-28 15:41:04] [erl] 
+[2023-09-28 15:41:09] [erl] 
+[2023-09-28 15:41:09] [erl] MidiInWinMM::initialize: no MIDI input devices currently available.
+[2023-09-28 15:41:09] [erl] 
+[2023-09-28 15:41:14] [erl] 
+[2023-09-28 15:41:14] [erl] MidiInWinMM::initialize: no MIDI input devices currently available.
+[2023-09-28 15:41:14] [erl] 
+[2023-09-28 15:41:19] [erl] 
+[2023-09-28 15:41:19] [erl] MidiInWinMM::initialize: no MIDI input devices currently available.
+[2023-09-28 15:41:19] [erl] 
+[2023-09-28 15:41:24] [erl] 
+[2023-09-28 15:41:24] [erl] MidiInWinMM::initialize: no MIDI input devices currently available.
+[2023-09-28 15:41:24] [erl] 
+[2023-09-28 15:41:29] [erl] 
+[2023-09-28 15:41:29] [erl] MidiInWinMM::initialize: no MIDI input devices currently available.
+[2023-09-28 15:41:29] [erl] 
+[2023-09-28 15:41:34] [erl] 
+[2023-09-28 15:41:34] [erl] MidiInWinMM::initialize: no MIDI input devices currently available.
+[2023-09-28 15:41:34] [erl] 
+[2023-09-28 15:41:39] [erl] 
+[2023-09-28 15:41:39] [erl] MidiInWinMM::initialize: no MIDI input devices currently available.
+[2023-09-28 15:41:39] [erl] 
+[2023-09-28 15:41:44] [erl] 
+[2023-09-28 15:41:44] [erl] MidiInWinMM::initialize: no MIDI input devices currently available.
+[2023-09-28 15:41:44] [erl] 
+[2023-09-28 15:41:49] [erl] 
+[2023-09-28 15:41:49] [erl] MidiInWinMM::initialize: no MIDI input devices currently available.
+[2023-09-28 15:41:49] [erl] 
+[2023-09-28 15:41:54] [erl] 
+[2023-09-28 15:41:54] [erl] MidiInWinMM::initialize: no MIDI input devices currently available.
+[2023-09-28 15:41:54] [erl] 
+[2023-09-28 15:41:59] [erl] 
+[2023-09-28 15:41:59] [erl] MidiInWinMM::initialize: no MIDI input devices currently available.
+[2023-09-28 15:41:59] [erl] 
+[2023-09-28 15:42:04] [erl] 
+[2023-09-28 15:42:04] [erl] MidiInWinMM::initialize: no MIDI input devices currently available.
+[2023-09-28 15:42:04] [erl] 
+[2023-09-28 15:42:09] [erl] 
+[2023-09-28 15:42:09] [erl] MidiInWinMM::initialize: no MIDI input devices currently available.
+[2023-09-28 15:42:09] [erl] 
+[2023-09-28 15:42:14] [erl] 
+[2023-09-28 15:42:14] [erl] MidiInWinMM::initialize: no MIDI input devices currently available.
+[2023-09-28 15:42:14] [erl] 
+[2023-09-28 15:42:19] [erl] 
+[2023-09-28 15:42:19] [erl] MidiInWinMM::initialize: no MIDI input devices currently available.
+[2023-09-28 15:42:19] [erl] 
+[2023-09-28 15:42:24] [erl] 
+[2023-09-28 15:42:24] [erl] MidiInWinMM::initialize: no MIDI input devices currently available.
+[2023-09-28 15:42:24] [erl] 
+[2023-09-28 15:42:29] [erl] 
+[2023-09-28 15:42:29] [erl] MidiInWinMM::initialize: no MIDI input devices currently available.
+[2023-09-28 15:42:29] [erl] 
+[2023-09-28 15:42:34] [erl] 
+[2023-09-28 15:42:34] [erl] MidiInWinMM::initialize: no MIDI input devices currently available.
+[2023-09-28 15:42:34] [erl] 
+[2023-09-28 15:42:39] [erl] 
+[2023-09-28 15:42:39] [erl] MidiInWinMM::initialize: no MIDI input devices currently available.
+[2023-09-28 15:42:39] [erl] 
+[2023-09-28 15:42:44] [erl] 
+[2023-09-28 15:42:44] [erl] MidiInWinMM::initialize: no MIDI input devices currently available.
+[2023-09-28 15:42:44] [erl] 
+[2023-09-28 15:42:49] [erl] 
+[2023-09-28 15:42:49] [erl] MidiInWinMM::initialize: no MIDI input devices currently available.
+[2023-09-28 15:42:49] [erl] 
+[2023-09-28 15:42:54] [erl] 
+[2023-09-28 15:42:54] [erl] MidiInWinMM::initialize: no MIDI input devices currently available.
+[2023-09-28 15:42:54] [erl] 
+[2023-09-28 15:42:59] [erl] 
+[2023-09-28 15:42:59] [erl] MidiInWinMM::initialize: no MIDI input devices currently available.
+[2023-09-28 15:42:59] [erl] 
+[2023-09-28 15:43:04] [erl] 
+[2023-09-28 15:43:04] [erl] MidiInWinMM::initialize: no MIDI input devices currently available.
+[2023-09-28 15:43:04] [erl] 
+[2023-09-28 15:43:09] [erl] 
+[2023-09-28 15:43:09] [erl] MidiInWinMM::initialize: no MIDI input devices currently available.
+[2023-09-28 15:43:09] [erl] 
+[2023-09-28 15:43:14] [erl] 
+[2023-09-28 15:43:14] [erl] MidiInWinMM::initialize: no MIDI input devices currently available.
+[2023-09-28 15:43:14] [erl] 
+[2023-09-28 15:43:19] [erl] 
+[2023-09-28 15:43:19] [erl] MidiInWinMM::initialize: no MIDI input devices currently available.
+[2023-09-28 15:43:19] [erl] 
+[2023-09-28 15:43:24] [erl] 
+[2023-09-28 15:43:24] [erl] MidiInWinMM::initialize: no MIDI input devices currently available.
+[2023-09-28 15:43:24] [erl] 
+[2023-09-28 15:43:29] [erl] 
+[2023-09-28 15:43:29] [erl] MidiInWinMM::initialize: no MIDI input devices currently available.
+[2023-09-28 15:43:29] [erl] 
+[2023-09-28 15:43:34] [erl] 
+[2023-09-28 15:43:34] [erl] MidiInWinMM::initialize: no MIDI input devices currently available.
+[2023-09-28 15:43:34] [erl] 
+[2023-09-28 15:43:39] [erl] 
+[2023-09-28 15:43:39] [erl] MidiInWinMM::initialize: no MIDI input devices currently available.
+[2023-09-28 15:43:39] [erl] 
+[2023-09-28 15:43:44] [erl] 
+[2023-09-28 15:43:44] [erl] MidiInWinMM::initialize: no MIDI input devices currently available.
+[2023-09-28 15:43:44] [erl] 
+[2023-09-28 15:43:49] [erl] 
+[2023-09-28 15:43:49] [erl] MidiInWinMM::initialize: no MIDI input devices currently available.
+[2023-09-28 15:43:49] [erl] 
+[2023-09-28 15:43:54] [erl] 
+[2023-09-28 15:43:54] [erl] MidiInWinMM::initialize: no MIDI input devices currently available.
+[2023-09-28 15:43:54] [erl] 
+[2023-09-28 15:44:00] [erl] 
+[2023-09-28 15:44:00] [erl] MidiInWinMM::initialize: no MIDI input devices currently available.
+[2023-09-28 15:44:00] [erl] 
+[2023-09-28 15:44:05] [erl] 
+[2023-09-28 15:44:05] [erl] MidiInWinMM::initialize: no MIDI input devices currently available.
+[2023-09-28 15:44:05] [erl] 
+[2023-09-28 15:44:10] [erl] 
+[2023-09-28 15:44:10] [erl] MidiInWinMM::initialize: no MIDI input devices currently available.
+[2023-09-28 15:44:10] [erl] 
+[2023-09-28 15:44:15] [erl] 
+[2023-09-28 15:44:15] [erl] MidiInWinMM::initialize: no MIDI input devices currently available.
+[2023-09-28 15:44:15] [erl] 
+[2023-09-28 15:44:20] [erl] 
+[2023-09-28 15:44:20] [erl] MidiInWinMM::initialize: no MIDI input devices currently available.
+[2023-09-28 15:44:20] [erl] 
+[2023-09-28 15:44:25] [erl] 
+[2023-09-28 15:44:25] [erl] MidiInWinMM::initialize: no MIDI input devices currently available.
+[2023-09-28 15:44:25] [erl] 
+[2023-09-28 15:44:30] [erl] 
+[2023-09-28 15:44:30] [erl] MidiInWinMM::initialize: no MIDI input devices currently available.
+[2023-09-28 15:44:30] [erl] 
+[2023-09-28 15:44:35] [erl] 
+[2023-09-28 15:44:35] [erl] MidiInWinMM::initialize: no MIDI input devices currently available.
+[2023-09-28 15:44:35] [erl] 
+[2023-09-28 15:44:40] [erl] 
+[2023-09-28 15:44:40] [erl] MidiInWinMM::initialize: no MIDI input devices currently available.
+[2023-09-28 15:44:40] [erl] 
+[2023-09-28 15:44:45] [erl] 
+[2023-09-28 15:44:45] [erl] MidiInWinMM::initialize: no MIDI input devices currently available.
+[2023-09-28 15:44:45] [erl] 
+[2023-09-28 15:44:50] [erl] 
+[2023-09-28 15:44:50] [erl] MidiInWinMM::initialize: no MIDI input devices currently available.
+[2023-09-28 15:44:50] [erl] 
+[2023-09-28 15:44:55] [erl] 
+[2023-09-28 15:44:55] [erl] MidiInWinMM::initialize: no MIDI input devices currently available.
+[2023-09-28 15:44:55] [erl] 
+[2023-09-28 15:45:00] [erl] 
+[2023-09-28 15:45:00] [erl] MidiInWinMM::initialize: no MIDI input devices currently available.
+[2023-09-28 15:45:00] [erl] 
+[2023-09-28 15:45:05] [erl] 
+[2023-09-28 15:45:05] [erl] MidiInWinMM::initialize: no MIDI input devices currently available.
+[2023-09-28 15:45:05] [erl] 
+[2023-09-28 15:45:10] [erl] 
+[2023-09-28 15:45:10] [erl] MidiInWinMM::initialize: no MIDI input devices currently available.
+[2023-09-28 15:45:10] [erl] 
+[2023-09-28 15:45:15] [erl] 
+[2023-09-28 15:45:15] [erl] MidiInWinMM::initialize: no MIDI input devices currently available.
+[2023-09-28 15:45:15] [erl] 
+[2023-09-28 15:45:20] [erl] 
+[2023-09-28 15:45:20] [erl] MidiInWinMM::initialize: no MIDI input devices currently available.
+[2023-09-28 15:45:20] [erl] 
+[2023-09-28 15:45:25] [erl] 
+[2023-09-28 15:45:25] [erl] MidiInWinMM::initialize: no MIDI input devices currently available.
+[2023-09-28 15:45:25] [erl] 
+[2023-09-28 15:45:30] [erl] 
+[2023-09-28 15:45:30] [erl] MidiInWinMM::initialize: no MIDI input devices currently available.
+[2023-09-28 15:45:30] [erl] 
+[2023-09-28 15:45:35] [erl] 
+[2023-09-28 15:45:35] [erl] MidiInWinMM::initialize: no MIDI input devices currently available.
+[2023-09-28 15:45:35] [erl] 
+[2023-09-28 15:45:40] [erl] 
+[2023-09-28 15:45:40] [erl] MidiInWinMM::initialize: no MIDI input devices currently available.
+[2023-09-28 15:45:40] [erl] 
+[2023-09-28 15:45:45] [erl] 
+[2023-09-28 15:45:45] [erl] MidiInWinMM::initialize: no MIDI input devices currently available.
+[2023-09-28 15:45:45] [erl] 
+[2023-09-28 15:45:50] [erl] 
+[2023-09-28 15:45:50] [erl] MidiInWinMM::initialize: no MIDI input devices currently available.
+[2023-09-28 15:45:50] [erl] 
+[2023-09-28 15:45:55] [erl] 
+[2023-09-28 15:45:55] [erl] MidiInWinMM::initialize: no MIDI input devices currently available.
+[2023-09-28 15:45:55] [erl] 
+[2023-09-28 15:46:00] [erl] 
+[2023-09-28 15:46:00] [erl] MidiInWinMM::initialize: no MIDI input devices currently available.
+[2023-09-28 15:46:00] [erl] 
+[2023-09-28 15:46:05] [erl] 
+[2023-09-28 15:46:05] [erl] MidiInWinMM::initialize: no MIDI input devices currently available.
+[2023-09-28 15:46:05] [erl] 
+[2023-09-28 15:46:10] [erl] 
+[2023-09-28 15:46:10] [erl] MidiInWinMM::initialize: no MIDI input devices currently available.
+[2023-09-28 15:46:10] [erl] 
+[2023-09-28 15:46:15] [erl] 
+[2023-09-28 15:46:15] [erl] MidiInWinMM::initialize: no MIDI input devices currently available.
+[2023-09-28 15:46:15] [erl] 
+[2023-09-28 15:46:20] [erl] 
+[2023-09-28 15:46:20] [erl] MidiInWinMM::initialize: no MIDI input devices currently available.
+[2023-09-28 15:46:20] [erl] 
+[2023-09-28 15:46:25] [erl] 
+[2023-09-28 15:46:25] [erl] MidiInWinMM::initialize: no MIDI input devices currently available.
+[2023-09-28 15:46:25] [erl] 
+[2023-09-28 15:46:30] [erl] 
+[2023-09-28 15:46:30] [erl] MidiInWinMM::initialize: no MIDI input devices currently available.
+[2023-09-28 15:46:30] [erl] 
+[2023-09-28 15:46:35] [erl] 
+[2023-09-28 15:46:35] [erl] MidiInWinMM::initialize: no MIDI input devices currently available.
+[2023-09-28 15:46:35] [erl] 
+[2023-09-28 15:46:40] [erl] 
+[2023-09-28 15:46:40] [erl] MidiInWinMM::initialize: no MIDI input devices currently available.
+[2023-09-28 15:46:40] [erl] 
+[2023-09-28 15:46:45] [erl] 
+[2023-09-28 15:46:45] [erl] MidiInWinMM::initialize: no MIDI input devices currently available.
+[2023-09-28 15:46:45] [erl] 
+[2023-09-28 15:46:50] [erl] 
+[2023-09-28 15:46:50] [erl] MidiInWinMM::initialize: no MIDI input devices currently available.
+[2023-09-28 15:46:50] [erl] 
+[2023-09-28 15:46:55] [erl] 
+[2023-09-28 15:46:55] [erl] MidiInWinMM::initialize: no MIDI input devices currently available.
+[2023-09-28 15:46:55] [erl] 
+[2023-09-28 15:47:00] [erl] 
+[2023-09-28 15:47:00] [erl] MidiInWinMM::initialize: no MIDI input devices currently available.
+[2023-09-28 15:47:00] [erl] 
+[2023-09-28 15:47:05] [erl] 
+[2023-09-28 15:47:05] [erl] MidiInWinMM::initialize: no MIDI input devices currently available.
+[2023-09-28 15:47:05] [erl] 
+[2023-09-28 15:47:10] [erl] 
+[2023-09-28 15:47:10] [erl] MidiInWinMM::initialize: no MIDI input devices currently available.
+[2023-09-28 15:47:10] [erl] 
+[2023-09-28 15:47:15] [erl] 
+[2023-09-28 15:47:15] [erl] MidiInWinMM::initialize: no MIDI input devices currently available.
+[2023-09-28 15:47:15] [erl] 
+[2023-09-28 15:47:20] [erl] 
+[2023-09-28 15:47:20] [erl] MidiInWinMM::initialize: no MIDI input devices currently available.
+[2023-09-28 15:47:20] [erl] 
+[2023-09-28 15:47:25] [erl] 
+[2023-09-28 15:47:25] [erl] MidiInWinMM::initialize: no MIDI input devices currently available.
+[2023-09-28 15:47:25] [erl] 
+[2023-09-28 15:47:30] [erl] 
+[2023-09-28 15:47:30] [erl] MidiInWinMM::initialize: no MIDI input devices currently available.
+[2023-09-28 15:47:30] [erl] 
+[2023-09-28 15:47:35] [erl] 
+[2023-09-28 15:47:35] [erl] MidiInWinMM::initialize: no MIDI input devices currently available.
+[2023-09-28 15:47:35] [erl] 
+[2023-09-28 15:47:40] [erl] 
+[2023-09-28 15:47:40] [erl] MidiInWinMM::initialize: no MIDI input devices currently available.
+[2023-09-28 15:47:40] [erl] 
+[2023-09-28 15:47:45] [erl] 
+[2023-09-28 15:47:45] [erl] MidiInWinMM::initialize: no MIDI input devices currently available.
+[2023-09-28 15:47:45] [erl] 
+[2023-09-28 15:47:50] [erl] 
+[2023-09-28 15:47:50] [erl] MidiInWinMM::initialize: no MIDI input devices currently available.
+[2023-09-28 15:47:50] [erl] 
+[2023-09-28 15:47:55] [erl] 
+[2023-09-28 15:47:55] [erl] MidiInWinMM::initialize: no MIDI input devices currently available.
+[2023-09-28 15:47:55] [erl] 
+[2023-09-28 15:48:00] [erl] 
+[2023-09-28 15:48:00] [erl] MidiInWinMM::initialize: no MIDI input devices currently available.
+[2023-09-28 15:48:00] [erl] 
+[2023-09-28 15:48:05] [erl] 
+[2023-09-28 15:48:05] [erl] MidiInWinMM::initialize: no MIDI input devices currently available.
+[2023-09-28 15:48:05] [erl] 
+[2023-09-28 15:48:10] [erl] 
+[2023-09-28 15:48:10] [erl] MidiInWinMM::initialize: no MIDI input devices currently available.
+[2023-09-28 15:48:10] [erl] 
+[2023-09-28 15:48:15] [erl] 
+[2023-09-28 15:48:15] [erl] MidiInWinMM::initialize: no MIDI input devices currently available.
+[2023-09-28 15:48:15] [erl] 
+[2023-09-28 15:48:20] [erl] 
+[2023-09-28 15:48:20] [erl] MidiInWinMM::initialize: no MIDI input devices currently available.
+[2023-09-28 15:48:20] [erl] 
+[2023-09-28 15:48:25] [erl] 
+[2023-09-28 15:48:25] [erl] MidiInWinMM::initialize: no MIDI input devices currently available.
+[2023-09-28 15:48:25] [erl] 
+[2023-09-28 15:48:30] [erl] 
+[2023-09-28 15:48:30] [erl] MidiInWinMM::initialize: no MIDI input devices currently available.
+[2023-09-28 15:48:30] [erl] 
+[2023-09-28 15:48:35] [erl] 
+[2023-09-28 15:48:35] [erl] MidiInWinMM::initialize: no MIDI input devices currently available.
+[2023-09-28 15:48:35] [erl] 
+[2023-09-28 15:48:40] [erl] 
+[2023-09-28 15:48:40] [erl] MidiInWinMM::initialize: no MIDI input devices currently available.
+[2023-09-28 15:48:40] [erl] 
+[2023-09-28 15:48:45] [erl] 
+[2023-09-28 15:48:45] [erl] MidiInWinMM::initialize: no MIDI input devices currently available.
+[2023-09-28 15:48:45] [erl] 
+[2023-09-28 15:48:50] [erl] 
+[2023-09-28 15:48:50] [erl] MidiInWinMM::initialize: no MIDI input devices currently available.
+[2023-09-28 15:48:50] [erl] 
+[2023-09-28 15:48:55] [erl] 
+[2023-09-28 15:48:55] [erl] MidiInWinMM::initialize: no MIDI input devices currently available.
+[2023-09-28 15:48:55] [erl] 
+[2023-09-28 15:49:00] [erl] 
+[2023-09-28 15:49:00] [erl] MidiInWinMM::initialize: no MIDI input devices currently available.
+[2023-09-28 15:49:00] [erl] 
+[2023-09-28 15:49:05] [erl] 
+[2023-09-28 15:49:05] [erl] MidiInWinMM::initialize: no MIDI input devices currently available.
+[2023-09-28 15:49:05] [erl] 
+[2023-09-28 15:49:10] [erl] 
+[2023-09-28 15:49:10] [erl] MidiInWinMM::initialize: no MIDI input devices currently available.
+[2023-09-28 15:49:10] [erl] 
+[2023-09-28 15:49:15] [erl] 
+[2023-09-28 15:49:15] [erl] MidiInWinMM::initialize: no MIDI input devices currently available.
+[2023-09-28 15:49:15] [erl] 
+[2023-09-28 15:49:20] [erl] 
+[2023-09-28 15:49:20] [erl] MidiInWinMM::initialize: no MIDI input devices currently available.
+[2023-09-28 15:49:20] [erl] 
+[2023-09-28 15:49:25] [erl] 
+[2023-09-28 15:49:25] [erl] MidiInWinMM::initialize: no MIDI input devices currently available.
+[2023-09-28 15:49:25] [erl] 
+[2023-09-28 15:49:30] [erl] 
+[2023-09-28 15:49:30] [erl] MidiInWinMM::initialize: no MIDI input devices currently available.
+[2023-09-28 15:49:30] [erl] 
+[2023-09-28 15:49:35] [erl] 
+[2023-09-28 15:49:35] [erl] MidiInWinMM::initialize: no MIDI input devices currently available.
+[2023-09-28 15:49:35] [erl] 
+[2023-09-28 15:49:40] [erl] 
+[2023-09-28 15:49:40] [erl] MidiInWinMM::initialize: no MIDI input devices currently available.
+[2023-09-28 15:49:40] [erl] 
+[2023-09-28 15:49:45] [erl] 
+[2023-09-28 15:49:45] [erl] MidiInWinMM::initialize: no MIDI input devices currently available.
+[2023-09-28 15:49:45] [erl] 
+[2023-09-28 15:49:50] [erl] 
+[2023-09-28 15:49:50] [erl] MidiInWinMM::initialize: no MIDI input devices currently available.
+[2023-09-28 15:49:50] [erl] 
+[2023-09-28 15:49:55] [erl] 
+[2023-09-28 15:49:55] [erl] MidiInWinMM::initialize: no MIDI input devices currently available.
+[2023-09-28 15:49:55] [erl] 
+[2023-09-28 15:50:00] [erl] 
+[2023-09-28 15:50:00] [erl] MidiInWinMM::initialize: no MIDI input devices currently available.
+[2023-09-28 15:50:00] [erl] 
+[2023-09-28 15:50:05] [erl] 
+[2023-09-28 15:50:05] [erl] MidiInWinMM::initialize: no MIDI input devices currently available.
+[2023-09-28 15:50:05] [erl] 
+[2023-09-28 15:50:10] [erl] 
+[2023-09-28 15:50:10] [erl] MidiInWinMM::initialize: no MIDI input devices currently available.
+[2023-09-28 15:50:10] [erl] 
+[2023-09-28 15:50:15] [erl] 
+[2023-09-28 15:50:15] [erl] MidiInWinMM::initialize: no MIDI input devices currently available.
+[2023-09-28 15:50:15] [erl] 
+[2023-09-28 15:50:20] [erl] 
+[2023-09-28 15:50:20] [erl] MidiInWinMM::initialize: no MIDI input devices currently available.
+[2023-09-28 15:50:20] [erl] 
+[2023-09-28 15:50:25] [erl] 
+[2023-09-28 15:50:25] [erl] MidiInWinMM::initialize: no MIDI input devices currently available.
+[2023-09-28 15:50:25] [erl] 
+[2023-09-28 15:50:30] [erl] 
+[2023-09-28 15:50:30] [erl] MidiInWinMM::initialize: no MIDI input devices currently available.
+[2023-09-28 15:50:30] [erl] 
+[2023-09-28 15:50:35] [erl] 
+[2023-09-28 15:50:35] [erl] MidiInWinMM::initialize: no MIDI input devices currently available.
+[2023-09-28 15:50:35] [erl] 
+[2023-09-28 15:50:40] [erl] 
+[2023-09-28 15:50:40] [erl] MidiInWinMM::initialize: no MIDI input devices currently available.
+[2023-09-28 15:50:40] [erl] 
+[2023-09-28 15:50:45] [erl] 
+[2023-09-28 15:50:45] [erl] MidiInWinMM::initialize: no MIDI input devices currently available.
+[2023-09-28 15:50:45] [erl] 
+[2023-09-28 15:50:50] [erl] 
+[2023-09-28 15:50:50] [erl] MidiInWinMM::initialize: no MIDI input devices currently available.
+[2023-09-28 15:50:50] [erl] 
+[2023-09-28 15:50:55] [erl] 
+[2023-09-28 15:50:55] [erl] MidiInWinMM::initialize: no MIDI input devices currently available.
+[2023-09-28 15:50:55] [erl] 
+[2023-09-28 15:51:00] [erl] 
+[2023-09-28 15:51:00] [erl] MidiInWinMM::initialize: no MIDI input devices currently available.
+[2023-09-28 15:51:00] [erl] 
+[2023-09-28 15:51:05] [erl] 
+[2023-09-28 15:51:05] [erl] MidiInWinMM::initialize: no MIDI input devices currently available.
+[2023-09-28 15:51:05] [erl] 
+[2023-09-28 15:51:10] [erl] 
+[2023-09-28 15:51:10] [erl] MidiInWinMM::initialize: no MIDI input devices currently available.
+[2023-09-28 15:51:10] [erl] 
+[2023-09-28 15:51:15] [erl] 
+[2023-09-28 15:51:15] [erl] MidiInWinMM::initialize: no MIDI input devices currently available.
+[2023-09-28 15:51:15] [erl] 
+[2023-09-28 15:51:20] [erl] 
+[2023-09-28 15:51:20] [erl] MidiInWinMM::initialize: no MIDI input devices currently available.
+[2023-09-28 15:51:20] [erl] 
+[2023-09-28 15:51:25] [erl] 
+[2023-09-28 15:51:25] [erl] MidiInWinMM::initialize: no MIDI input devices currently available.
+[2023-09-28 15:51:25] [erl] 
+[2023-09-28 15:51:30] [erl] 
+[2023-09-28 15:51:30] [erl] MidiInWinMM::initialize: no MIDI input devices currently available.
+[2023-09-28 15:51:30] [erl] 
+[2023-09-28 15:51:35] [erl] 
+[2023-09-28 15:51:35] [erl] MidiInWinMM::initialize: no MIDI input devices currently available.
+[2023-09-28 15:51:35] [erl] 
+[2023-09-28 15:51:40] [erl] 
+[2023-09-28 15:51:40] [erl] MidiInWinMM::initialize: no MIDI input devices currently available.
+[2023-09-28 15:51:40] [erl] 
+[2023-09-28 15:51:45] [erl] 
+[2023-09-28 15:51:45] [erl] MidiInWinMM::initialize: no MIDI input devices currently available.
+[2023-09-28 15:51:45] [erl] 
+[2023-09-28 15:51:50] [erl] 
+[2023-09-28 15:51:50] [erl] MidiInWinMM::initialize: no MIDI input devices currently available.
+[2023-09-28 15:51:50] [erl] 
+[2023-09-28 15:51:55] [erl] 
+[2023-09-28 15:51:55] [erl] MidiInWinMM::initialize: no MIDI input devices currently available.
+[2023-09-28 15:51:55] [erl] 
+[2023-09-28 15:52:00] [erl] 
+[2023-09-28 15:52:00] [erl] MidiInWinMM::initialize: no MIDI input devices currently available.
+[2023-09-28 15:52:00] [erl] 
+[2023-09-28 15:52:05] [erl] 
+[2023-09-28 15:52:05] [erl] MidiInWinMM::initialize: no MIDI input devices currently available.
+[2023-09-28 15:52:05] [erl] 
+[2023-09-28 15:52:10] [erl] 
+[2023-09-28 15:52:10] [erl] MidiInWinMM::initialize: no MIDI input devices currently available.
+[2023-09-28 15:52:10] [erl] 
+[2023-09-28 15:52:15] [erl] 
+[2023-09-28 15:52:15] [erl] MidiInWinMM::initialize: no MIDI input devices currently available.
+[2023-09-28 15:52:15] [erl] 
+[2023-09-28 15:52:20] [erl] 
+[2023-09-28 15:52:20] [erl] MidiInWinMM::initialize: no MIDI input devices currently available.
+[2023-09-28 15:52:20] [erl] 
+[2023-09-28 15:52:25] [erl] 
+[2023-09-28 15:52:25] [erl] MidiInWinMM::initialize: no MIDI input devices currently available.
+[2023-09-28 15:52:25] [erl] 
+[2023-09-28 15:52:30] [erl] 
+[2023-09-28 15:52:30] [erl] MidiInWinMM::initialize: no MIDI input devices currently available.
+[2023-09-28 15:52:30] [erl] 
+[2023-09-28 15:52:35] [erl] 
+[2023-09-28 15:52:35] [erl] MidiInWinMM::initialize: no MIDI input devices currently available.
+[2023-09-28 15:52:35] [erl] 
+[2023-09-28 15:52:40] [erl] 
+[2023-09-28 15:52:40] [erl] MidiInWinMM::initialize: no MIDI input devices currently available.
+[2023-09-28 15:52:40] [erl] 
+[2023-09-28 15:52:45] [erl] 
+[2023-09-28 15:52:45] [erl] MidiInWinMM::initialize: no MIDI input devices currently available.
+[2023-09-28 15:52:45] [erl] 

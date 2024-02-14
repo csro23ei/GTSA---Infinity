@@ -1,0 +1,6 @@
+#NOTE: This is a Maven Resolver internal implementation file, its format can be changed without prior notice.
+#Mon Oct 23 17:33:45 CEST 2023
+spring-web-6.0.13-sources.jar>central=
+spring-web-6.0.13.pom>central=
+spring-web-6.0.13.jar>central=
+spring-web-6.0.13-javadoc.jar>central=

@@ -1,0 +1,32 @@
+
+Device options:
+  - MME : Microsoft Sound Mapper - Input   (device #0 with 2 ins 0 outs)
+  - MME : Headset (2- Jabra Elite 85h)   (device #1 with 1 ins 0 outs)
+  - MME : Microsoft Sound Mapper - Output   (device #2 with 0 ins 2 outs)
+  - MME : Hörlurar (2- Jabra Elite 85h)   (device #3 with 0 ins 2 outs)
+  - Windows DirectSound : Primary Sound Capture Driver   (device #4 with 2 ins 0 outs)
+  - Windows DirectSound : Headset (2- Jabra Elite 85h)   (device #5 with 1 ins 0 outs)
+  - Windows DirectSound : Primary Sound Driver   (device #6 with 0 ins 2 outs)
+  - Windows DirectSound : Hörlurar (2- Jabra Elite 85h)   (device #7 with 0 ins 2 outs)
+  - Windows WASAPI : Hörlurar (2- Jabra Elite 85h)   (device #8 with 0 ins 2 outs)
+  - Windows WASAPI : Headset (2- Jabra Elite 85h)   (device #9 with 1 ins 0 outs)
+  - Windows WDM-KS : Hörlurar ()   (device #10 with 0 ins 2 outs)
+  - Windows WDM-KS : Headset (@System32\drivers\bthhfenum.sys,#2;%1 Hands-Free%0
+
+;(Jabra Elite 85h))   (device #11 with 0 ins 1 outs)
+  - Windows WDM-KS : Headset (@System32\drivers\bthhfenum.sys,#2;%1 Hands-Free%0
+
+;(Jabra Elite 85h))   (device #12 with 1 ins 0 outs)
+
+Requested devices:
+  Out:
+  - (default)
+
+Selecting default system output device
+
+Booting with:
+  Out: MME : Hörlurar (2- Jabra Elite 85h)
+  Sample rate: 44100.000
+  Latency (in/out): 0.000 / 0.091 sec
+SC_AudioDriver: sample rate = 44100.000000, driver's block size = 64
+SuperCollider 3 server ready.

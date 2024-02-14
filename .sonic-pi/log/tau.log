@@ -1,0 +1,63 @@
+16:32:30.717 [info] All systems booting....
+16:32:30.717 [info] Initialising MIDI native interface
+16:32:30.730 [info] Initialising Link native interface
+16:32:30.753 [info] Starting Phoenix server
+16:32:30.753 [info] Starting with MIDI server enabled
+16:32:30.753 [info] Starting with Link server enabled
+16:32:30.753 [info] 
++--------------------------------------+
+    This is the Sonic Pi Link Server    
+       Powered by Erlang 26             
+                                        
+   Number of detected peers:           
+   0 
+                                        
+   Current tempo:          
+   60.0 
++--------------------------------------+
+
+
+
+16:32:30.852 [info] 
++--------------------------------------+
+    This is the Sonic Pi MIDI Server    
+       Powered by Erlang 26             
+                                        
+   Detected MIDI input ports:           
+   [] 
+                                        
+   Detected MIDI output ports:          
+   [~c"microsoft_gs_wavetable_synth_0"] 
++--------------------------------------+
+
+
+
+16:32:30.853 [info] 
++--------------------------------------+
+    This is the Sonic Pi OSC Server     
+             == Tau ==                  
+       Powered by Erlang 26             
+                                        
+        Incoming OSC on port 4560         
+  OSC cue forwarding to {127, 0, 0, 1}              
+                     on port 38502         
++--------------------------------------+
+
+
+
+16:32:30.853 [info] 
++--------------------------------------+
+    This is the Sonic Pi API Server     
+       Powered by Erlang 26             
+                                        
+       API listening on port 38498         
++--------------------------------------+
+
+
+
+16:32:30.857 [info] Running TauWeb.Endpoint with cowboy 2.10.0 at 0.0.0.0:38500 (http)
+16:32:30.862 [info] Access TauWeb.Endpoint at http://localhost:38500
+16:32:30.907 [info] API /send-pid-to-daemon -> sending pid to Daemon...
+16:32:34.451 [error] Cue Server got unexpected message: {:midi_on, 1}
+16:32:34.451 [info] Enabling cue forwarding 
+16:32:35.310 [info] Enabling cue forwarding 

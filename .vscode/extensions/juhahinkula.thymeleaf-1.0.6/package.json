@@ -1,0 +1,35 @@
+{
+	"name": "thymeleaf",
+	"displayName": "thymeleaf",
+	"description": "Thymeleaf snippets",
+	"version": "1.0.6",
+	"publisher": "juhahinkula",
+	"engines": {
+		"vscode": "^1.17.0"
+	},
+	"categories": [
+		"Snippets"
+	],
+	"contributes": {
+		"snippets": [
+			{
+				"language": "html",
+				"path": "./snippets/snippets.json"
+			}
+		]
+	},
+	"repository": {
+		"type": "git",
+		"url": "https://github.com/juhahinkula/vscode-thymeleaf.git"
+	},
+	"__metadata": {
+		"id": "25209d64-18ca-4109-99d6-11f2bbb32fe5",
+		"publisherId": "89b3651c-7eb7-4f82-858c-0677fcd9f148",
+		"publisherDisplayName": "Juha Hinkula",
+		"targetPlatform": "undefined",
+		"updated": false,
+		"isPreReleaseVersion": false,
+		"installedTimestamp": 1698091276281,
+		"preRelease": false
+	}
+}

@@ -1,0 +1,278 @@
+[2023-09-28 15:35:51] Welcome to the Daemon Booter
+[2023-09-28 15:35:51] ----------------------------
+[2023-09-28 15:35:51] SuperCollider inputs disabled by GUI
+[2023-09-28 15:35:51] checked port 35017, #<UDPSocket:0x000001820c806a08>
+[2023-09-28 15:35:51] checked port 35018, #<UDPSocket:0x000001820c806788>
+[2023-09-28 15:35:51] checked port 35019, #<UDPSocket:0x000001820c806620>
+[2023-09-28 15:35:51] checked port 4560, #<UDPSocket:0x000001820c806490>
+[2023-09-28 15:35:51] checked port 35020, #<UDPSocket:0x000001820c806328>
+[2023-09-28 15:35:51] checked port 35021, #<UDPSocket:0x000001820c8061c0>
+[2023-09-28 15:35:51] checked port 35022, #<UDPSocket:0x000001820c806058>
+[2023-09-28 15:35:51] checked port 35023, #<UDPSocket:0x000001820c805ef0>
+[2023-09-28 15:35:51] checked port 35024, #<UDPSocket:0x000001820c805d88>
+[2023-09-28 15:35:51] Selected ports: 
+[2023-09-28 15:35:51] {"spider-listen-to-gui"=>35017, "gui-send-to-spider"=>35017, "gui-listen-to-spider"=>35018, "spider-send-to-gui"=>35018, "scsynth"=>35019, "scsynth-send"=>35019, "osc-cues"=>4560, "tau"=>35020, "spider"=>35021, "phx"=>35022, "daemon"=>35023, "spider-listen-to-tau"=>35024}
+[2023-09-28 15:35:51] Booting Scsynth
+[2023-09-28 15:35:51] ---- Audio Config Issue ----
+[2023-09-28 15:35:51] Could not find C:/Users/GTSA - Infinity/.sonic-pi/config/audio-settings.toml - reverting to default audio options.
+[2023-09-28 15:35:51] This is not critical - reverting to default audio options
+[2023-09-28 15:35:51] ----------------------------
+[2023-09-28 15:35:51] Got Audio Settings toml hash: {}
+[2023-09-28 15:35:51] Unified Audio Settings toml hash: {}
+[2023-09-28 15:35:51] Combined Audio Settings toml hash with GUI scsynth inputs hash: {"-i"=>"0"}
+[2023-09-28 15:35:51] Merged Audio Settings toml hash: {"-u"=>35019, "-a"=>"1024", "-m"=>"131072", "-D"=>"0", "-R"=>"0", "-l"=>"1", "-i"=>"0", "-o"=>"16", "-b"=>"4096", "-B"=>"127.0.0.1", "-U"=>"C:/Program Files/Sonic Pi/app/server/native/plugins"}
+[2023-09-28 15:35:51] Process Booter - booting C:/Program Files/Sonic Pi/app/server/native/scsynth.exe with args ["-u", "35019", "-a", "1024", "-m", "131072", "-D", "0", "-R", "0", "-l", "1", "-i", "0", "-o", "16", "-b", "4096", "-B", "127.0.0.1", "-U", "C:/Program Files/Sonic Pi/app/server/native/plugins"]
+[2023-09-28 15:35:51] C:/Program Files/Sonic Pi/app/server/native/scsynth.exe -u 35019 -a 1024 -m 131072 -D 0 -R 0 -l 1 -i 0 -o 16 -b 4096 -B 127.0.0.1 -U C:/Program Files/Sonic Pi/app/server/native/plugins
+[2023-09-28 15:35:51] Waiting for the SuperCollider Server to have booted...
+[2023-09-28 15:35:51] Sending /status to server: localhost:35019
+[2023-09-28 15:35:52] Sending /status to server: localhost:35019
+[2023-09-28 15:35:53] Sending /status to server: localhost:35019
+[2023-09-28 15:35:54] Sending /status to server: localhost:35019
+[2023-09-28 15:35:55] Sending /status to server: localhost:35019
+[2023-09-28 15:35:56] Sending /status to server: localhost:35019
+[2023-09-28 15:35:57] Sending /status to server: localhost:35019
+[2023-09-28 15:35:58] Sending /status to server: localhost:35019
+[2023-09-28 15:35:59] Sending /status to server: localhost:35019
+[2023-09-28 15:36:00] Sending /status to server: localhost:35019
+[2023-09-28 15:36:01] Sending /status to server: localhost:35019
+[2023-09-28 15:36:02] Sending /status to server: localhost:35019
+[2023-09-28 15:36:03] [scsynth] Server: possible boot delay.
+[2023-09-28 15:36:03] [scsynth] On some Windows-based machines, Windows Defender sometimes delays server boot by one minute.
+[2023-09-28 15:36:03] [scsynth] You can add scsynth.exe and/or supernova.exe *processes* to Windows Defender exclusion list to avoid this delay. It's safe.
+[2023-09-28 15:36:03] Sending /status to server: localhost:35019
+[2023-09-28 15:36:04] Sending /status to server: localhost:35019
+[2023-09-28 15:36:05] Sending /status to server: localhost:35019
+[2023-09-28 15:36:06] Sending /status to server: localhost:35019
+[2023-09-28 15:36:07] Sending /status to server: localhost:35019
+[2023-09-28 15:36:08] Sending /status to server: localhost:35019
+[2023-09-28 15:36:09] Sending /status to server: localhost:35019
+[2023-09-28 15:36:10] Sending /status to server: localhost:35019
+[2023-09-28 15:36:11] Sending /status to server: localhost:35019
+[2023-09-28 15:36:12] Sending /status to server: localhost:35019
+[2023-09-28 15:36:13] [scsynth] 
+[2023-09-28 15:36:13] [scsynth] Device options:
+[2023-09-28 15:36:13] [scsynth]   - MME : Microsoft Sound Mapper - Input   (device #0 with 2 ins 0 outs)
+[2023-09-28 15:36:13] [scsynth]   - MME : Headset (2- Jabra Elite 85h)   (device #1 with 1 ins 0 outs)
+[2023-09-28 15:36:13] [scsynth]   - MME : Microsoft Sound Mapper - Output   (device #2 with 0 ins 2 outs)
+[2023-09-28 15:36:13] [scsynth]   - MME : Hörlurar (2- Jabra Elite 85h)   (device #3 with 0 ins 2 outs)
+[2023-09-28 15:36:13] [scsynth]   - Windows DirectSound : Primary Sound Capture Driver   (device #4 with 2 ins 0 outs)
+[2023-09-28 15:36:13] [scsynth]   - Windows DirectSound : Headset (2- Jabra Elite 85h)   (device #5 with 1 ins 0 outs)
+[2023-09-28 15:36:13] [scsynth]   - Windows DirectSound : Primary Sound Driver   (device #6 with 0 ins 2 outs)
+[2023-09-28 15:36:13] [scsynth]   - Windows DirectSound : Hörlurar (2- Jabra Elite 85h)   (device #7 with 0 ins 2 outs)
+[2023-09-28 15:36:13] [scsynth]   - Windows WASAPI : Hörlurar (2- Jabra Elite 85h)   (device #8 with 0 ins 2 outs)
+[2023-09-28 15:36:13] [scsynth]   - Windows WASAPI : Headset (2- Jabra Elite 85h)   (device #9 with 1 ins 0 outs)
+[2023-09-28 15:36:13] [scsynth]   - Windows WDM-KS : Hörlurar ()   (device #10 with 0 ins 2 outs)
+[2023-09-28 15:36:13] [scsynth]   - Windows WDM-KS : Headset (@System32\drivers\bthhfenum.sys,#2;%1 Hands-Free%0
+[2023-09-28 15:36:13] [scsynth] 
+[2023-09-28 15:36:13] [scsynth] ;(Jabra Elite 85h))   (device #11 with 0 ins 1 outs)
+[2023-09-28 15:36:13] [scsynth]   - Windows WDM-KS : Headset (@System32\drivers\bthhfenum.sys,#2;%1 Hands-Free%0
+[2023-09-28 15:36:13] [scsynth] 
+[2023-09-28 15:36:13] [scsynth] ;(Jabra Elite 85h))   (device #12 with 1 ins 0 outs)
+[2023-09-28 15:36:13] [scsynth] 
+[2023-09-28 15:36:13] [scsynth] Requested devices:
+[2023-09-28 15:36:13] [scsynth]   Out:
+[2023-09-28 15:36:13] [scsynth]   - (default)
+[2023-09-28 15:36:13] [scsynth] 
+[2023-09-28 15:36:13] [scsynth] Selecting default system output device
+[2023-09-28 15:36:13] [scsynth] 
+[2023-09-28 15:36:13] [scsynth] Booting with:
+[2023-09-28 15:36:13] [scsynth]   Out: MME : Hörlurar (2- Jabra Elite 85h)
+[2023-09-28 15:36:13] [scsynth]   Sample rate: 44100.000
+[2023-09-28 15:36:13] [scsynth]   Latency (in/out): 0.000 / 0.091 sec
+[2023-09-28 15:36:13] [scsynth] SC_AudioDriver: sample rate = 44100.000000, driver's block size = 64
+[2023-09-28 15:36:13] [scsynth] SuperCollider 3 server ready.
+[2023-09-28 15:36:13] Sending /status to server: localhost:35019
+[2023-09-28 15:36:13] Receiving ack from scsynth
+[2023-09-28 15:36:13] SuperCollider Server connection established
+[2023-09-28 15:36:13] Extracting Scsynth info
+[2023-09-28 15:36:13] Booting Tau...
+[2023-09-28 15:36:13] Fetching Tau toml opts...
+[2023-09-28 15:36:13] Daemon listening to info from Tau on port 35023
+[2023-09-28 15:36:13] Requesting tau send us its pid. Sending /send-pid-to-daemon, -1419996815 to localhost:35020
+[2023-09-28 15:36:13] Process Booter - booting C:\Program Files\Sonic Pi\app\server\beam\tau\_build\prod\rel\tau\erts-14.0.2\bin\erl.exe with args ["-config", "C:\\Program Files\\Sonic Pi\\app\\server\\beam\\tau\\_build\\prod\\rel\\tau\\releases\\0.1.0\\sys", "-boot", "C:\\Program Files\\Sonic Pi\\app\\server\\beam\\tau\\_build\\prod\\rel\\tau\\releases\\0.1.0\\start", "-boot_var", "RELEASE_LIB", "C:\\Program Files\\Sonic Pi\\app\\server\\beam\\tau\\_build\\prod\\rel\\tau\\lib", "-args_file", "C:\\Program Files\\Sonic Pi\\app\\server\\beam\\tau\\_build\\prod\\rel\\tau\\releases\\0.1.0\\vm.args", "-noshell", "-s", "elixir", "start_cli", "-mode", "embedded", "-extra", "--no-halt"]
+[2023-09-28 15:36:13] C:\Program Files\Sonic Pi\app\server\beam\tau\_build\prod\rel\tau\erts-14.0.2\bin\erl.exe -config C:\Program Files\Sonic Pi\app\server\beam\tau\_build\prod\rel\tau\releases\0.1.0\sys -boot C:\Program Files\Sonic Pi\app\server\beam\tau\_build\prod\rel\tau\releases\0.1.0\start -boot_var RELEASE_LIB C:\Program Files\Sonic Pi\app\server\beam\tau\_build\prod\rel\tau\lib -args_file C:\Program Files\Sonic Pi\app\server\beam\tau\_build\prod\rel\tau\releases\0.1.0\vm.args -noshell -s elixir start_cli -mode embedded -extra --no-halt
+[2023-09-28 15:36:14] Booting Spider Server
+[2023-09-28 15:36:14] Process Booter - booting C:/Program Files/Sonic Pi/app/server/native/ruby/bin/ruby.exe with args ["--enable-frozen-string-literal", "-E", "utf-8", "C:/Program Files/Sonic Pi/app/server/ruby/bin/spider-server.rb", "-u", "35017", "35018", "35019", "35019", "4560", "35020", "35024", "-1419996815"]
+[2023-09-28 15:36:14] C:/Program Files/Sonic Pi/app/server/native/ruby/bin/ruby.exe --enable-frozen-string-literal -E utf-8 C:/Program Files/Sonic Pi/app/server/ruby/bin/spider-server.rb -u 35017 35018 35019 35019 4560 35020 35024 -1419996815
+[2023-09-28 15:36:14] 35023 35018 35017 35019 4560 35020 35022 -1419996815
+[2023-09-28 15:36:14] Blocking main thread until exit signal received...
+[2023-09-28 15:36:14] Requesting tau send us its pid. Sending /send-pid-to-daemon, -1419996815 to localhost:35020
+[2023-09-28 15:36:15] Requesting tau send us its pid. Sending /send-pid-to-daemon, -1419996815 to localhost:35020
+[2023-09-28 15:36:16] Requesting tau send us its pid. Sending /send-pid-to-daemon, -1419996815 to localhost:35020
+[2023-09-28 15:36:17] [erl] prod
+[2023-09-28 15:36:17] Requesting tau send us its pid. Sending /send-pid-to-daemon, -1419996815 to localhost:35020
+[2023-09-28 15:36:18] [ruby] Sonic Pi Spider Server booting...
+[2023-09-28 15:36:18] [ruby] The time is 2023-09-28 15:36:18 +0200
+[2023-09-28 15:36:18] [ruby] Using primary protocol: udp
+[2023-09-28 15:36:18] [ruby] Detecting port numbers...
+[2023-09-28 15:36:18] [ruby] Ports: {:server_port=>35017, :gui_port=>35018, :scsynth_port=>35019, :scsynth_send_port=>35019, :osc_cues_port=>4560, :tau_port=>35020, :listen_to_tau_port=>35024}
+[2023-09-28 15:36:18] [ruby] Token: -1419996815
+[2023-09-28 15:36:18] [ruby] Opening UDP Server to listen to GUI on port: 35017
+[2023-09-28 15:36:18] [ruby] Spider - Pulling in modules...
+[2023-09-28 15:36:18] [ruby] Spider - Starting Runtime Server
+[2023-09-28 15:36:18] [erl] 
+[2023-09-28 15:36:18] [erl] MidiInWinMM::initialize: no MIDI input devices currently available.
+[2023-09-28 15:36:18] [erl] 
+[2023-09-28 15:36:18] [erl] 
+[2023-09-28 15:36:18] [erl] MidiInWinMM::initialize: no MIDI input devices currently available.
+[2023-09-28 15:36:18] [erl] 
+[2023-09-28 15:36:18] scsynth log match - res: nil, res_no_input: #<MatchData "  Out: MME : Hörlurar (2- Jabra Elite 85h)\n  Sample rate: 44100.000\n  Latency (in/out): 0.000 / 0.091 sec" 1:"MME : Hörlurar (2- Jabra Elite 85h)" 2:"44100.000" 3:"0.000" 4:"0.091">, res_no_output: nil
+[2023-09-28 15:36:18] Extracted Windows in audio hw only: {:hw_in=>"Not connected", :hw_out=>"MME : Hörlurar (2- Jabra Elite 85h)", :hw_sample_rate=>44100, :hw_latency_in=>0.0, :hw_latency_out=>0.091}
+[2023-09-28 15:36:18] Sending scsynth info to GUI...
+[2023-09-28 15:36:18] {:hw_in=>"Not connected", :hw_out=>"MME : Hörlurar (2- Jabra Elite 85h)", :hw_sample_rate=>44100, :hw_latency_in=>0.0, :hw_latency_out=>0.091, :sc_sample_rate=>44100, :sc_block_size=>64}
+[2023-09-28 15:36:18] Out: MME : Hörlurar (2- Jabra Elite 85h)
+In: Not connected
+Sample Rate: 44100
+Block Size: 64
+Latency Out: 0.091
+[2023-09-28 15:36:18] Requesting tau send us its pid. Sending /send-pid-to-daemon, -1419996815 to localhost:35020
+[2023-09-28 15:36:19] Daemon received Pid from Tau: [-1419996815, 2148]
+[2023-09-28 15:36:19] [ruby] TauComms - Sending /ping to tau: 127.0.0.1:35020
+[2023-09-28 15:36:19] [ruby] TauComms - Receiving ack from tau
+[2023-09-28 15:36:19] [ruby] TauComms - connection established
+[2023-09-28 15:36:19] [ruby] studio - init
+[2023-09-28 15:36:19] [ruby] scsynth boot - Waiting for the SuperCollider Server to have booted...
+[2023-09-28 15:36:19] [ruby] scsynth boot - Sending /status to server: 127.0.0.1:35019
+[2023-09-28 15:36:19] [ruby] scsynth boot - Receiving ack from scsynth
+[2023-09-28 15:36:19] [ruby] scsynth boot - Server connection established
+[2023-09-28 15:36:19] [ruby] scsynth - clear!
+[2023-09-28 15:36:19] [ruby] scsynth - clear schedule 
+[2023-09-28 15:36:19] [ruby] scsynth - schedule cleared!
+[2023-09-28 15:36:20] [ruby] scsynth - group clear 0
+[2023-09-28 15:36:20] [ruby] scsynth - group clear 0 completed
+[2023-09-28 15:36:20] [ruby] Studio - Initialised SuperCollider Audio Server v3.13.0
+[2023-09-28 15:36:20] [ruby] Studio - Resetting server
+[2023-09-28 15:36:20] [ruby] Studio - Reset and setup groups and busses
+[2023-09-28 15:36:20] [ruby] Studio - Clearing scsynth
+[2023-09-28 15:36:20] [ruby] scsynth - clear schedule
+[2023-09-28 15:36:20] [ruby] scsynth - clear scsynth
+[2023-09-28 15:36:20] [ruby] scsynth - clear!
+[2023-09-28 15:36:20] [ruby] scsynth - clear schedule 
+[2023-09-28 15:36:20] [ruby] scsynth - schedule cleared!
+[2023-09-28 15:36:20] [ruby] scsynth - group clear 0
+[2023-09-28 15:36:20] [ruby] scsynth - group clear 0 completed
+[2023-09-28 15:36:20] [ruby] scsynth - cleared scsynth
+[2023-09-28 15:36:20] [ruby] scsynth - bus allocators reset
+[2023-09-28 15:36:20] [ruby] Studio - Allocating audio bus
+[2023-09-28 15:36:20] [ruby] Studio - Create Base Synth Groups
+[2023-09-28 15:36:20] [ruby] Studio - Starting mixer
+[2023-09-28 15:36:20] [ruby] Studio - Starting scope
+[2023-09-28 15:36:20] [ruby] Spider - Runtime Server Initialised
+[2023-09-28 15:36:20] [ruby] Spider - Registering incoming Spider Server API endpoints
+[2023-09-28 15:36:20] [ruby] Spider - Booted Successfully.
+[2023-09-28 15:36:20] [ruby] Spider - v4.4, OS windows, on Ruby  3.2.2 | 3.2.0.
+[2023-09-28 15:36:20] [ruby] Spider - ------------------------------------------
+[2023-09-28 15:36:23] [erl] 
+[2023-09-28 15:36:23] [erl] MidiInWinMM::initialize: no MIDI input devices currently available.
+[2023-09-28 15:36:23] [erl] 
+[2023-09-28 15:36:23] [erl] 
+[2023-09-28 15:36:23] [erl] MidiInWinMM::initialize: no MIDI input devices currently available.
+[2023-09-28 15:36:23] [erl] 
+[2023-09-28 15:36:28] [erl] 
+[2023-09-28 15:36:28] [erl] MidiInWinMM::initialize: no MIDI input devices currently available.
+[2023-09-28 15:36:28] [erl] 
+[2023-09-28 15:36:33] [erl] 
+[2023-09-28 15:36:33] [erl] MidiInWinMM::initialize: no MIDI input devices currently available.
+[2023-09-28 15:36:33] [erl] 
+[2023-09-28 15:36:38] [erl] 
+[2023-09-28 15:36:38] [erl] MidiInWinMM::initialize: no MIDI input devices currently available.
+[2023-09-28 15:36:38] [erl] 
+[2023-09-28 15:36:43] [erl] 
+[2023-09-28 15:36:43] [erl] MidiInWinMM::initialize: no MIDI input devices currently available.
+[2023-09-28 15:36:43] [erl] 
+[2023-09-28 15:36:48] [erl] 
+[2023-09-28 15:36:48] [erl] MidiInWinMM::initialize: no MIDI input devices currently available.
+[2023-09-28 15:36:48] [erl] 
+[2023-09-28 15:36:53] [erl] 
+[2023-09-28 15:36:53] [erl] MidiInWinMM::initialize: no MIDI input devices currently available.
+[2023-09-28 15:36:53] [erl] 
+[2023-09-28 15:36:58] [erl] 
+[2023-09-28 15:36:58] [erl] MidiInWinMM::initialize: no MIDI input devices currently available.
+[2023-09-28 15:36:58] [erl] 
+[2023-09-28 15:37:03] [erl] 
+[2023-09-28 15:37:03] [erl] MidiInWinMM::initialize: no MIDI input devices currently available.
+[2023-09-28 15:37:03] [erl] 
+[2023-09-28 15:37:08] [erl] 
+[2023-09-28 15:37:08] [erl] MidiInWinMM::initialize: no MIDI input devices currently available.
+[2023-09-28 15:37:08] [erl] 
+[2023-09-28 15:37:13] [erl] 
+[2023-09-28 15:37:13] [erl] MidiInWinMM::initialize: no MIDI input devices currently available.
+[2023-09-28 15:37:13] [erl] 
+[2023-09-28 15:37:18] [erl] 
+[2023-09-28 15:37:18] [erl] MidiInWinMM::initialize: no MIDI input devices currently available.
+[2023-09-28 15:37:18] [erl] 
+[2023-09-28 15:37:23] [erl] 
+[2023-09-28 15:37:23] [erl] MidiInWinMM::initialize: no MIDI input devices currently available.
+[2023-09-28 15:37:23] [erl] 
+[2023-09-28 15:37:28] [erl] 
+[2023-09-28 15:37:28] [erl] MidiInWinMM::initialize: no MIDI input devices currently available.
+[2023-09-28 15:37:28] [erl] 
+[2023-09-28 15:37:33] [erl] 
+[2023-09-28 15:37:33] [erl] MidiInWinMM::initialize: no MIDI input devices currently available.
+[2023-09-28 15:37:33] [erl] 
+[2023-09-28 15:37:38] [erl] 
+[2023-09-28 15:37:38] [erl] MidiInWinMM::initialize: no MIDI input devices currently available.
+[2023-09-28 15:37:38] [erl] 
+[2023-09-28 15:37:43] [erl] 
+[2023-09-28 15:37:43] [erl] MidiInWinMM::initialize: no MIDI input devices currently available.
+[2023-09-28 15:37:43] [erl] 
+[2023-09-28 15:37:48] [erl] 
+[2023-09-28 15:37:48] [erl] MidiInWinMM::initialize: no MIDI input devices currently available.
+[2023-09-28 15:37:48] [erl] 
+[2023-09-28 15:37:53] [erl] 
+[2023-09-28 15:37:53] [erl] MidiInWinMM::initialize: no MIDI input devices currently available.
+[2023-09-28 15:37:53] [erl] 
+[2023-09-28 15:37:58] [erl] 
+[2023-09-28 15:37:58] [erl] MidiInWinMM::initialize: no MIDI input devices currently available.
+[2023-09-28 15:37:58] [erl] 
+[2023-09-28 15:38:03] [erl] 
+[2023-09-28 15:38:03] [erl] MidiInWinMM::initialize: no MIDI input devices currently available.
+[2023-09-28 15:38:03] [erl] 
+[2023-09-28 15:38:08] [erl] 
+[2023-09-28 15:38:08] [erl] MidiInWinMM::initialize: no MIDI input devices currently available.
+[2023-09-28 15:38:08] [erl] 
+[2023-09-28 15:38:13] [erl] 
+[2023-09-28 15:38:13] [erl] MidiInWinMM::initialize: no MIDI input devices currently available.
+[2023-09-28 15:38:13] [erl] 
+[2023-09-28 15:38:18] [erl] 
+[2023-09-28 15:38:18] [erl] MidiInWinMM::initialize: no MIDI input devices currently available.
+[2023-09-28 15:38:18] [erl] 
+[2023-09-28 15:38:23] [erl] 
+[2023-09-28 15:38:23] [erl] MidiInWinMM::initialize: no MIDI input devices currently available.
+[2023-09-28 15:38:23] [erl] 
+[2023-09-28 15:38:28] [erl] 
+[2023-09-28 15:38:28] [erl] MidiInWinMM::initialize: no MIDI input devices currently available.
+[2023-09-28 15:38:28] [erl] 
+[2023-09-28 15:38:33] [erl] 
+[2023-09-28 15:38:33] [erl] MidiInWinMM::initialize: no MIDI input devices currently available.
+[2023-09-28 15:38:33] [erl] 
+[2023-09-28 15:38:38] [erl] 
+[2023-09-28 15:38:38] [erl] MidiInWinMM::initialize: no MIDI input devices currently available.
+[2023-09-28 15:38:38] [erl] 
+[2023-09-28 15:38:43] [erl] 
+[2023-09-28 15:38:43] [erl] MidiInWinMM::initialize: no MIDI input devices currently available.
+[2023-09-28 15:38:43] [erl] 
+[2023-09-28 15:38:48] [erl] 
+[2023-09-28 15:38:48] [erl] MidiInWinMM::initialize: no MIDI input devices currently available.
+[2023-09-28 15:38:48] [erl] 
+[2023-09-28 15:38:53] [erl] 
+[2023-09-28 15:38:53] [erl] MidiInWinMM::initialize: no MIDI input devices currently available.
+[2023-09-28 15:38:53] [erl] 
+[2023-09-28 15:38:58] [erl] 
+[2023-09-28 15:38:58] [erl] MidiInWinMM::initialize: no MIDI input devices currently available.
+[2023-09-28 15:38:58] [erl] 
+[2023-09-28 15:39:03] [erl] 
+[2023-09-28 15:39:03] [erl] MidiInWinMM::initialize: no MIDI input devices currently available.
+[2023-09-28 15:39:03] [erl] 
+[2023-09-28 15:39:08] [erl] 
+[2023-09-28 15:39:08] [erl] MidiInWinMM::initialize: no MIDI input devices currently available.
+[2023-09-28 15:39:08] [erl] 
+[2023-09-28 15:39:13] [erl] 
+[2023-09-28 15:39:13] [erl] MidiInWinMM::initialize: no MIDI input devices currently available.
+[2023-09-28 15:39:13] [erl] 
+[2023-09-28 15:39:18] [erl] 
+[2023-09-28 15:39:18] [erl] MidiInWinMM::initialize: no MIDI input devices currently available.
+[2023-09-28 15:39:18] [erl] 
+[2023-09-28 15:39:23] [erl] 
+[2023-09-28 15:39:23] [erl] MidiInWinMM::initialize: no MIDI input devices currently available.
+[2023-09-28 15:39:23] [erl] 
