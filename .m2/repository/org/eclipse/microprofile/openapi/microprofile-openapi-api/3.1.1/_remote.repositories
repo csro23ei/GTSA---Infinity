@@ -1,0 +1,6 @@
+#NOTE: This is a Maven Resolver internal implementation file, its format can be changed without prior notice.
+#Wed Feb 14 11:48:11 CET 2024
+microprofile-openapi-api-3.1.1.jar>central=
+microprofile-openapi-api-3.1.1-javadoc.jar>central=
+microprofile-openapi-api-3.1.1.pom>central=
+microprofile-openapi-api-3.1.1-sources.jar>central=

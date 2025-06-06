@@ -1,0 +1,6 @@
+#NOTE: This is a Maven Resolver internal implementation file, its format can be changed without prior notice.
+#Wed Feb 07 14:05:03 CET 2024
+smallrye-common-constraint-2.1.2.jar>central=
+smallrye-common-constraint-2.1.2-sources.jar>central=
+smallrye-common-constraint-2.1.2.pom>central=
+smallrye-common-constraint-2.1.2-javadoc.jar>central=

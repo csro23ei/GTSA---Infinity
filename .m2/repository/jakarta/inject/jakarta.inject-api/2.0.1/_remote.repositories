@@ -1,4 +1,6 @@
 #NOTE: This is a Maven Resolver internal implementation file, its format can be changed without prior notice.
-#Sat Oct 28 16:33:08 CEST 2023
+#Sun Feb 11 14:32:23 CET 2024
 jakarta.inject-api-2.0.1.pom>central=
+jakarta.inject-api-2.0.1-javadoc.jar>central=
 jakarta.inject-api-2.0.1.jar>central=
+jakarta.inject-api-2.0.1-sources.jar>central=

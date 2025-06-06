@@ -42,3 +42,11 @@ git comit -m "Hoppas deta funkar"
 git commit -m "Hoppas deta funkar"
 git checkout main
 git branch
+git status
+clear
+cd OneDrive
+cd Document
+Dokument
+cd dokument
+cd Repos
+ln

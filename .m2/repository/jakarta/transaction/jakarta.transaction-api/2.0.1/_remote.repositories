@@ -1,4 +1,6 @@
 #NOTE: This is a Maven Resolver internal implementation file, its format can be changed without prior notice.
-#Sat Oct 28 16:33:08 CEST 2023
+#Tue Feb 06 16:19:13 CET 2024
 jakarta.transaction-api-2.0.1.jar>central=
+jakarta.transaction-api-2.0.1-javadoc.jar>central=
 jakarta.transaction-api-2.0.1.pom>central=
+jakarta.transaction-api-2.0.1-sources.jar>central=
