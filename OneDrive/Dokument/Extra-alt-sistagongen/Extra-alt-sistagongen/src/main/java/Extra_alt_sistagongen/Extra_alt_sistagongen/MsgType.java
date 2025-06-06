@@ -5,3 +5,4 @@ public enum MsgType {
     JOIN,
     LEAVE
 }
+// why dose nobody love me...?
